@@ -45,7 +45,7 @@ function Entry({parentCallback}) {
   
 
   return (
-    <div>
+    <div className="Entry">
       <input type="text" value={data} onChange={ChangeValue}></input>
       <label>TL</label>
       <div className="radiobuttons" onChange={ChangeOption} value={option}>
